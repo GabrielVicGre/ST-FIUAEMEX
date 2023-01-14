@@ -1,0 +1,24 @@
+.btn-editar,.btn-guardar {
+    background-color: #BEA52A;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.btn-editar:hover, .btn-guardar:hover {
+    background-color: #AA934C;
+    color: white;          
+}
+.btn-borrar {
+    background-color: #839192;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.btn-borrar:hover {
+    background-color: #99A3A4;
+    color: white;          
+}
+
+.tabla-actividades {
+    max-height: 400px;
+}

@@ -1,0 +1,19 @@
+table.tabla_tutor_index {
+    width: 70%;
+    margin: auto;
+    
+    text-align: center;
+}
+
+table.tabla_tutor_index th{
+    border: 1px solid gray; 
+    padding: 10px;
+    background-color: #7DCEA0;
+    color: white;
+}
+
+table.tabla_tutor_index td{
+    border: 1px solid gray; 
+    padding: 15px;
+
+}

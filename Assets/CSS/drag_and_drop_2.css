@@ -1,0 +1,23 @@
+.drop-area{
+    width: 100%;
+    padding: 30px 0;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.drop-area:hover {
+    cursor: pointer;
+}
+
+.drop-area.highlight {
+    border-style: solid;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}

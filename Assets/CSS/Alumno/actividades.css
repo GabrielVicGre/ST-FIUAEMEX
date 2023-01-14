@@ -1,0 +1,93 @@
+/*
+table.actividades-status {
+    width: 90%;
+    margin: auto;
+    padding-top: 3%;
+}
+
+td.status-data {
+    border: 1px solid gray;
+    width: 25%;
+    padding: 20px;
+}
+
+table.actividades-list {
+    width: 70%;
+    margin: auto;
+    
+    text-align: center;
+}
+
+table.actividades-list th{
+    border: 1px solid gray; 
+    padding: 10px;
+    background-color: #7DCEA0;
+    color: white;
+}
+
+table.actividades-list td{
+    border: 1px solid gray; 
+    
+}
+
+
+tbody.actividades-list-container {
+    width: 100%;
+    overflow-y: scroll;
+}
+
+td.act-data {
+    padding: 10px;
+}
+
+td.short {
+    width: 20%;
+    text-align: center;
+}
+
+td.long {
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+button {
+    padding: 5px 40px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 100%;
+}
+
+
+
+
+
+
+*/
+
+button.turn-in:hover {
+    background-color: #a79f32;
+    cursor: pointer;
+    color: #eee;
+}
+
+button.turn-in {
+    background-color: #BEA52A;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 16px;
+    color: white;
+}
+button.turned-in {
+    background-color: rgb(173, 169, 169);
+    border-radius: 10px;
+    border: none;
+    padding: 5px 16px;
+    color: white;
+}
+

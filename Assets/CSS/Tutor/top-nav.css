@@ -1,0 +1,89 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.top-nav {
+    float: left;
+    background-color: #679370;
+    width: 100%;
+    height: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+li.top-nav-item {
+    float:left;
+    width: 30%;
+    height: inherit;
+    display: block;
+    font-family: 'Calibri';
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    border-left: 1px solid white;
+}
+
+li.top-nav-item:hover {
+    background-color: #477551;
+    cursor: pointer;
+}
+
+li.logout {
+    width: 10%;
+}
+
+a.top-nav-link {
+    height: 100%;
+    color: white;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+ul.drop-down-list {
+    width: 20%;
+    padding: 0 10px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    box-shadow: 2px 3px 10px 1px #BBBBBB;
+}
+
+li.drop-down-list-item {
+    border-top: 1px solid gray;
+    color: gray;
+}
+
+li.drop-down-list-item:hover {
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+
+a.drop-down-link {
+    padding: 5px;
+    color: gray;
+    display: block;
+    height: 100%;
+}
+
+li.first-item {
+    border: none;
+}
+
+i.fa-caret-down, i.fa-cloud-download, i.fa-bar-chart {
+    padding: 0 15px;
+}
+
+i.fa-house-user{
+    padding: 0 8px;
+}
+
+i.fa-pen-to-square{
+    padding: 0 8px;
+
+}

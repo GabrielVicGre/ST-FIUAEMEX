@@ -1,0 +1,33 @@
+div.percent-bar {
+    width: 100%;
+    border-radius: 5px;
+}
+
+div.percent-bar-high {
+    background-color: #69F7B0;
+}
+
+div.percent-bar-low {
+    background-color: #E08A8A;
+}
+
+div.percent-fill {
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    animation-name: grow;
+    animation-duration: 1s;
+}
+
+div.percent-fill-high {
+    background-color: #00CC66;
+}
+
+div.percent-fill-low {
+    background-color: #DC3131;
+}
+
+@keyframes grow {
+    from {width:0}
+}
+

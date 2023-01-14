@@ -1,0 +1,38 @@
+
+@media (max-width: 950px) {
+   
+    .titLogin{
+        font-size: 19px;
+    }
+    #uaemex-logo {
+        width: 150px;
+    }
+    
+    #fi-logo {
+        width: 150px;
+    }
+    div.login-panel{
+        font-size: 14px;
+    }
+    .imgLogin{
+        width: 30%;
+        height: 30%;
+        padding-top: 10%;
+    }
+}
+
+
+@media (max-width: 638px) {
+    body{
+        background: linear-gradient(to bottom, #eee, white 70%, #7C8D69);
+    }
+    div.left-panel {
+        display: none;
+    }
+    div.login-panel{
+        width: 100%;
+        background-color: white !important;
+
+    }
+   
+}

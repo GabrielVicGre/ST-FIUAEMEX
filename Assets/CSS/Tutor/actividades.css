@@ -1,0 +1,17 @@
+table.table_actividades {
+    width: 70%;
+    margin: auto;
+    
+    text-align: center;
+}
+
+table.table_actividades th{
+    border: 1px solid gray; 
+    padding: 10px;
+    background-color: #7DCEA0;
+    color: white;
+}
+
+table.table_actividades td{
+    border: 1px solid gray; 
+}
