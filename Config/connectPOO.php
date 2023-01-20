@@ -16,7 +16,7 @@
 */
 
 
-  
+
     $host = "localhost";
     $user = "root";
     $pass = "";
@@ -28,9 +28,9 @@
     if ($connection->connect_errno) {
         die("la conexión ha fallado: " . $connection->connect_error);
     }
+    
 
- /*  
-
+/*  
 $host = "localhost";
 $user = "cnopedom_acttu";
 $pass = "ev3ryS@und";
