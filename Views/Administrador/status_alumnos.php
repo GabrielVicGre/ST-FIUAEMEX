@@ -48,6 +48,10 @@ $controller_estatus = new estatusAlumnosController();
                         ?>
                     </div>
                 </div>
+
+                <?php include "../layouts/footer-layout.php"; ?>
+
+
             </main>
         </div>
     </div>

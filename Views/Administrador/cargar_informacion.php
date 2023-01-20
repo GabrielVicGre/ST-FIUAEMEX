@@ -62,7 +62,7 @@ if (!isset($_GET['tab'])) {
                                             <div class="col-sm-6 m-auto">
                                                 <?php
                                                 include "layouts/drag_and_drop_csv.php";
-                                                if (isset($_GET['msg']) ) {
+                                                if (isset($_GET['msg'])) {
                                                     if ($_GET['msg'] == 0) {
                                                         include 'layouts/upload_success.php';
                                                     }
@@ -81,13 +81,13 @@ if (!isset($_GET['tab'])) {
                                             <div class="col-sm-6 m-auto">
                                                 <?php
                                                 include "layouts/drag_and_drop_csv.php";
-                                                if (isset($_GET['msg']) ) {
+                                                if (isset($_GET['msg'])) {
                                                     if ($_GET['msg'] == 1) {
                                                         include 'layouts/upload_success.php';
                                                     }
                                                 }
                                                 ?>
-                                            </div>    
+                                            </div>
                                         </form>
                                     </div>
                                 </div>
@@ -100,13 +100,13 @@ if (!isset($_GET['tab'])) {
                                             <div class="col-sm-6 m-auto">
                                                 <?php
                                                 include "layouts/drag_and_drop_csv.php";
-                                                if (isset($_GET['msg']) ) {
+                                                if (isset($_GET['msg'])) {
                                                     if ($_GET['msg'] == 2) {
                                                         include 'layouts/upload_success.php';
                                                     }
                                                 }
                                                 ?>
-                                            </div>    
+                                            </div>
                                         </form>
                                     </div>
                                 </div>
@@ -119,7 +119,7 @@ if (!isset($_GET['tab'])) {
                                             <div class="col-sm-6 m-auto">
                                                 <?php
                                                 include "layouts/drag_and_drop_csv.php";
-                                                if (isset($_GET['msg']) ) {
+                                                if (isset($_GET['msg'])) {
                                                     if ($_GET['msg'] == 3) {
                                                         include 'layouts/upload_success.php';
                                                     }
@@ -135,7 +135,7 @@ if (!isset($_GET['tab'])) {
                     <a class="btn btn-secondary btn-sm my-1" href="Config/resetBD.php">Limpiar Base de datos</a>
 
                 </div>
-                <?php include "layouts/footer-layout.php"; ?>
+                <?php include "../layouts/footer-layout.php"; ?>
 
             </main>
         </div>

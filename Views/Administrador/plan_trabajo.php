@@ -110,7 +110,7 @@ if (isset($_POST['selectIdAct'])) {
                         Semestre 2022B
                     </div>
                 </div>
-                <?php include "layouts/footer-layout.php"; ?>
+                <?php include "../layouts/footer-layout.php"; ?>
 
             </main>
 

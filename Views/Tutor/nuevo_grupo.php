@@ -101,7 +101,7 @@ $result = $alumnInscritosController->getMateriasTutorByIdUser($_SESSION['id_usua
                     <br><a href="Views/Tutor/carga_alumnos.php" class="btn btn-sm btn-success"><i class="bi bi-arrow-left-circle mx-1"></i>Regresar </a>
                 </div>
                 <br> <br> <br>
-                <?php include "layouts/footer-layout.php"; ?>
+                <?php include "../layouts/footer-layout.php"; ?>
             </main>
         </div>
     </div>

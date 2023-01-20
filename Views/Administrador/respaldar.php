@@ -26,6 +26,8 @@ if (empty($_SESSION['usuario']) || $_SESSION['tipo_usuario'] != "Administrador" 
                     <?php include "layouts/user-layout.php"; ?>
 
                 </div>
+                <?php include "../layouts/footer-layout.php"; ?>
+
             </main>
         </div>
     </div>

@@ -39,7 +39,7 @@ if (empty($_SESSION['usuario']) || $_SESSION['tipo_usuario'] != "Administrador")
                         </div>
                     </div>
                 </div>
-                <?php include "layouts/footer-layout.php"; ?>
+                <?php include "../layouts/footer-layout.php"; ?>
 
             </main>
         </div>

@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 include_once ("../../Models/UsuarioCRUD.php");
 include_once ("../../Models/TutorCRUD.php");
 include_once ("../../Models/LicenciaturaCRUD.php");

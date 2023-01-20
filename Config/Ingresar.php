@@ -2,7 +2,7 @@
 
 include_once('connectPOO.php');
 
-$verificado=false;
+$verificado = false;
 $secretkey = "6LdYZHAjAAAAAENeEpFGfuj2Xpao9KV50ymJMSv9"; 
 
 if (!isset($_POST["g-recaptcha-response"]) || empty($_POST["g-recaptcha-response"])) {
@@ -12,6 +12,7 @@ if (!isset($_POST["g-recaptcha-response"]) || empty($_POST["g-recaptcha-response
 # Antes de comprobar usuario y contraseña, vemos si resolvieron el captcha
 $token = $_POST["g-recaptcha-response"];
 $verificado = verificarToken($token, $secretkey);
+
 # Si no ha pasado la prueba
 if ($verificado) {
     //echo "Has completado la prueba :)";

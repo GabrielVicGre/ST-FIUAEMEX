@@ -31,7 +31,7 @@ if (empty($_SESSION['usuario']) || $_SESSION['tipo_usuario'] != "Administrador" 
                 <section class="text-center container">
                     <div class="row py-lg-3">
                         <div class="col-lg-8 col-md-8 mx-auto">
-                            <h4 class="fw-bold text-muted">S.T. V.1.0 2022</h4>
+                            <h4 class="fw-bold text-muted">S.T. V.1.0 2023</h4>
                             <p style="font-size: 18px;" class="lead text-muted">
                                 Este sistema tiene como objetivo
                                 administrar la información de las actividades 
@@ -39,7 +39,7 @@ if (empty($_SESSION['usuario']) || $_SESSION['tipo_usuario'] != "Administrador" 
                                 cada una de las licenciaturas de la 
                                 Facultad de Ingeniería - UAEMéx. 
                                 <br>
-                            <h6 class="pt-0 text-secondary">Semestre 2022B</h6>
+                            <h6 class="pt-0 text-secondary">Semestre 2023A</h6>
 
                             </p>
 
@@ -54,7 +54,7 @@ if (empty($_SESSION['usuario']) || $_SESSION['tipo_usuario'] != "Administrador" 
                     </div>
                 </section>
 
-                <?php include "layouts/footer-layout.php"; ?>
+                <?php include "../layouts/footer-layout.php"; ?>
 
 
             </main>

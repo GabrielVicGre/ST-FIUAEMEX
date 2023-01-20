@@ -48,7 +48,7 @@ $controller_estatus = new estatusController();
                         ?>
                     </div>
                 </div><br>
-                <?php include "layouts/footer-layout.php"; ?>
+                <?php include "../layouts/footer-layout.php"; ?>
 
             </main>
         </div>

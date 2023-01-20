@@ -80,7 +80,7 @@ $plan_trabajo = $model_plan_trabajo->getActividadesPorLicenciatura($tutor->id_li
                     </div>
                 </div>
 
-                <?php include "layouts/footer-layout.php"; ?>
+                <?php include "../layouts/footer-layout.php"; ?>
             </main>
         </div>
     </div>

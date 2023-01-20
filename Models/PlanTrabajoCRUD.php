@@ -1,5 +1,4 @@
 <?php
-
 include_once ("../../Config/connectPOO.php");
 include_once ("../../Models/PlanTrabajo.php");
 include_once ("../../Models/Actividad.php");

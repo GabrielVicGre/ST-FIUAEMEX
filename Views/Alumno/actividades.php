@@ -86,8 +86,8 @@ $id_alumno = $controller_alumno->getAlumnoData()->id_alumno;
 
                 </div>
 
-                <br><br>                     
-                <?php include "layouts/footer-layout.php"; ?>
+                <?php include "../layouts/footer-layout.php"; ?>
+
 
             </main>
         </div>

@@ -67,7 +67,7 @@ if(isset($_POST['submit'])) {
                     <br><a href="Views/Alumno/actividades.php" class="mt-3 btn btn-sm btn-success"><i class="bi bi-arrow-left-circle mx-1"></i>Regresar </a>
                 </div>
                 <br><br><br>
-                <?php include "layouts/footer-layout.php"; ?>
+                <?php include "../layouts/footer-layout.php"; ?>
             </main>
         </div>
     </div>

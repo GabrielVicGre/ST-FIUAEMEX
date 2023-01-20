@@ -88,7 +88,7 @@ if (isset($_GET['delete'])) {
                         </table>
                     </div>
                 </div>
-                <?php include "layouts/footer-layout.php"; ?>
+                <?php include "../layouts/footer-layout.php"; ?>
             </main>
         </div>
     </div>

@@ -91,7 +91,7 @@ if (!isset($_GET['tab'])) {
                         </div>
                     </div>
                 </div>
-                <?php include "layouts/footer-layout.php"; ?>
+                <?php include "../layouts/footer-layout.php"; ?>
 
             </main>
         </div>
