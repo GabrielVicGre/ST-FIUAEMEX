@@ -36,7 +36,7 @@ if (empty($_SESSION['usuario']) || $_SESSION['tipo_usuario'] != "Tutor") {
                             <video src="Assets/Videos/Tutor/VID_TUTOR.mp4" class="img-fluid" style="width: 75%;" controls autoplay loop></video>
                         </div>
                         <div class="card-footer text-center">
-                            Semestre 2022B
+                            
                         </div>
                     </div>
                 </div>
